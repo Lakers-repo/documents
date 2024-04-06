@@ -1,1 +1,7 @@
-{}
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "focusNewTab": true
+}

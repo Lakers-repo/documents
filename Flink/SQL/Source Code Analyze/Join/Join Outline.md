@@ -1,0 +1,5 @@
+1. [[Inner Join]]
+2. [[Lookup Join]]
+3. [[Interval Join]]
+4. [[Window Join]]
+5. [[Temporal Join]]
