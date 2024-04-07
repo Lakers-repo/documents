@@ -4,14 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "c8c6a67070b5ee35",
+        "id": "d2cc44bffd46e27a",
         "type": "tabs",
         "children": [
           {
-            "id": "c1b3c58528b9067e",
+            "id": "a680348b956134f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c857a9b628975f54",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
               "state": {}
             }
           }
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md"
+              }
             }
           },
           {
@@ -138,7 +154,7 @@
             }
           },
           {
-            "id": "7a796a5cad7741b3",
+            "id": "e41a089507c70f96",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -164,13 +180,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a6aeabcdd39edff1",
+  "active": "a680348b956134f9",
   "lastOpenFiles": [
-    "Tools/Markdown/Markdown 语法学习.md",
-    "Tools/Markdown",
-    "Tools",
-    "Picture/Flink SQL/Window/Window Strategy.png",
+    "Flink/SQL/Source Code Analyze/Aggregate/Group Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Join/Join Outline.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Anti Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心逻辑&注意事项.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Semi Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Full Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Left & Right Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Inner Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Join Related Core Basic Class.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Regular Join Example.md",
+    "Flink/SQL/Source Code Analyze/Join/Temporal Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Lookup Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Interval Join.md",
+    "Flink/Use Case/SQL/Join Use Case.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/UT & IT Outline.md",
+    "Flink/Flink Overview.md",
+    "Flink/Use Case/Use Case Outline.md",
+    "Flink/Use Case/DataStream/Data Stream Use Case Outline.md",
+    "Flink/Use Case/SQL/SQL Use Case Outline.md",
+    "Flink/Use Case/Data Stream Use Case.md",
+    "Flink/Use Case/SQL/Aggregate Use Case.md",
+    "Flink/Use Case/SQL Use Case.md",
+    "Flink/Use Case/SQL/Aggregate",
+    "Flink/Use Case/DataStream",
+    "Flink/Use Case/SQL",
+    "Flink/Performance Tuning/SQL/SQL Performance Tuning Outline.md",
+    "Flink/Use Case/SQL",
+    "Flink/Use Case/DataStream",
+    "Flink/Use Case",
+    "Flink/Performance Tuning/DataStream/Data Stream Performance Tuning Outline.md",
+    "Flink/Performance Tuning/SQL/Non-window Aggregation.md",
+    "Flink/Performance Tuning/SQL",
+    "Flink/Performance Tuning/DataStream",
+    "Flink/Performance Tuning",
     "Picture/Flink SQL/Window/Window Operator - Deprecated.png",
+    "flink-window-operator-anatomy.pptx.zip",
+    "Picture/Flink DataStream/Watermark Propagation.png",
+    "Picture/Flink SQL/Window/Window Strategy.png",
     "Picture/Flink SQL/Window/Trigger - Deprecated.png",
     "Picture/Flink SQL/Window/Slicing Window Operator.png",
     "Picture/Flink SQL/Window/Slice Processor.png",
@@ -178,40 +228,6 @@
     "Picture/Flink SQL/Window/Records Window Buffer.png",
     "Picture/Flink SQL/Window/Records Combiner.png",
     "Picture/Flink SQL/Window/Keyed Slice Assigners.png",
-    "Picture/Flink SQL/Window/Assigner Class Diagram - Deprecated.png",
-    "Picture/Flink SQL/Window",
-    "Picture/Flink SQL/Join",
-    "Picture/Flink SQL",
-    "Picture/Flink DataStream",
-    "Picture",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Window Strategy.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Slicing Window Processor.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TopN.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TVF Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TVF Aggregate - Two Stage Optimized.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window Deduplicate.md",
-    "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation/Window Group Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Slicing Window Operator.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Slice Assigners.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Records Window Buffer.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Records Combiner.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation",
-    "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Window Trigger.md",
-    "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Window Operator.md",
-    "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Window Assigner.md",
-    "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Inner Join.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF",
-    "Flink/SQL/Source Code Analyze/Window/Window Outline.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/UT & IT Outline.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/Table Sink IT Case.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Window Example - Special.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Window Example - Regular.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Regular Join Example.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Example - Regular.md",
-    "Flink/SQL/Source Code Analyze/TopN/TopN Outline.md",
-    "Flink/SQL/Source Code Analyze/TopN/Regular TopN.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Use FILTER Modifier on Distinct Aggregates.md",
     "Flink/Flink SQL/未命名.canvas",
     "未命名.canvas",
     "Language/未命名.canvas"

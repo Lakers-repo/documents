@@ -89,3 +89,4 @@ private void onProcessingTime(long time) throws Exception {
 ## Resources
 1. https://blog.csdn.net/nazeniwaresakini/article/details/104220113
 2. https://blog.csdn.net/WenWu_Both/article/details/123758708
+3. [[Flink DataStream Window Sharing]]
