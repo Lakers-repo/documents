@@ -144,7 +144,7 @@ final JoinInputSideSpec rightInputSpec =
 ```
 
 ### StreamingJoinOperator - Inner & Outer Join
-`open() - 根据join key的特征，决定左右表state的结构` - [[Join Related Core Basic Class]]
+`open() - 根据join key的特征，决定左右表state的结构` - [[Regular Join核心基础类]]
 ```Java
 // initialize states  
 if (leftIsOuter) {  
@@ -352,7 +352,7 @@ private void processElement(
 ```
 
 ### StreamingSemiAntiJoinOperator - Semi & Anti Join
-`open() - 根据join key的特征，决定左右表state的结构` - [[Join Related Core Basic Class]]
+`open() - 根据join key的特征，决定左右表state的结构` - [[Regular Join核心基础类]]
 ```Java
 // initialize states  
 this.leftRecordStateView =  

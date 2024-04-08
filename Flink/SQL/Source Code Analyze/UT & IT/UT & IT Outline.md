@@ -6,4 +6,4 @@
 | StreamWindowSQLProcessTimeExample | analyze the processing time window related source code, including window group aggregate and window join                                   | [[Stream SQL Window Example - Special]] |
 | TableSinkITCase                   | analyze the downstream exec node change log when the sink is required upsert(insert and update_after), not contains update_before messages | [[Table Sink IT Case]]                  |
 | StreamRegularJoinSQLExample       | analyze the streaming regular join source code                                                                                             | [[Stream SQL Regular Join Example]]     |
-|                                   |                                                                                                                                            |                                         |
+| StreamIntervalJoinSQLExample      | analyze the streaming interval join source code                                                                                            | [[Stream SQL Interval Join Example]]    |

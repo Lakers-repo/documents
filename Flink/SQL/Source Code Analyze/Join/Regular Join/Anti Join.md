@@ -19,7 +19,7 @@ StreamExecJoin-->|Semi or Anti Join|StreamingSemiAntiJoinOperator
 
 ## Resources
 1. [[Change Log 原理与实现]]
-2. [[Join Related Core Basic Class]]
+2. [[Regular Join核心基础类]]
 3. [[Regular Join核心逻辑&注意事项]]
 4. [[Stream SQL Regular Join Example]]
 5. [[Join Use Case]]
