@@ -31,14 +31,16 @@ public boolean processElement(RowData key, RowData element) throws Exception {
     }  
     if (isEventTime && isWindowFired(sliceEnd, currentProgress, shiftTimeZone)) {  
         // the assigned slice has been triggered, which means current element is late,  
-        // but maybe not need to drop        long lastWindowEnd = sliceAssigner.getLastWindowEnd(sliceEnd);  
+        // but maybe not need to drop        
+        long lastWindowEnd = sliceAssigner.getLastWindowEnd(sliceEnd);  
         if (isWindowFired(lastWindowEnd, currentProgress, shiftTimeZone)) {  
             // the last window has been triggered, so the element can be dropped now  
             return true;  
         } else {  
             windowBuffer.addElement(key, sliceStateMergeTarget(sliceEnd), element);  
             // we need to register a timer for the next unfired window,  
-            // because this may the first time we see elements under the key            long unfiredFirstWindow = sliceEnd;  
+            // because this may the first time we see elements under the key            
+            long unfiredFirstWindow = sliceEnd;  
             while (isWindowFired(unfiredFirstWindow, currentProgress, shiftTimeZone)) {  
                 unfiredFirstWindow += windowInterval;  
             }  
@@ -59,7 +61,10 @@ public void advanceProgress(long progress) throws Exception {
         currentProgress = progress;  
         if (currentProgress >= nextTriggerProgress) {  
             // in order to buffer as much as possible data, we only need to call  
-            // advanceProgress() when currentWatermark may trigger window.            // this is a good optimization when receiving late but un-dropped events, because            // they will register small timers and normal watermark will flush the buffer            windowBuffer.advanceProgress(currentProgress);  
+            // advanceProgress() when currentWatermark may trigger window.            
+            // this is a good optimization when receiving late but un-dropped events, because            
+            // they will register small timers and normal watermark will flush the buffer            
+            windowBuffer.advanceProgress(currentProgress);  
             nextTriggerProgress =  
                     getNextTriggerWatermark(  
                             currentProgress, windowInterval, shiftTimeZone, useDayLightSaving);  

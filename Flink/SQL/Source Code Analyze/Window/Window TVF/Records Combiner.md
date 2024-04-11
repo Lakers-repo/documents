@@ -1,4 +1,4 @@
-## 继承关系
+	## 继承关系
 ![[Records Combiner.png]]
 
 > [!NOTE]

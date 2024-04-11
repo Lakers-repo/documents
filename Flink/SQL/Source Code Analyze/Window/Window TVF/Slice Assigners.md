@@ -8,7 +8,7 @@
 `HoppingSliceAssigner`
 
 > [!assignSliceEnd]
-> 计算数据所属的slice end, Flink SQL Window TVF的最小划分单元是slice,而之前老的版本成为pane. 每个元素只属于某一个slice或者pane，但是可能属于多个window.
+> 计算数据所属的slice end, Flink SQL Window TVF的最小划分单元是slice,而之前老的版称为pane. 每个元素只属于某一个slice或者pane，但是可能属于多个window.
 
 ```Java  
 public long assignSliceEnd(long timestamp) {  

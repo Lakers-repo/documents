@@ -13,34 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flink/DataStream/Source Code Analyze/Timer.md",
+                "file": "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation/Window Group Aggregate.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "71813e6f1bb0aea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flink/DataStream/Source Code Analyze/Timer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c857a9b628975f54",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flink/DataStream/Source Code Analyze/Timer.md",
+                "file": "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation/Window Group Aggregate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flink/DataStream/Source Code Analyze/Timer.md",
+                "file": "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation/Window Group Aggregate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flink/DataStream/Source Code Analyze/Timer.md"
+                "file": "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation/Window Group Aggregate.md"
               }
             }
           },
@@ -174,7 +153,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,34 +172,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "71813e6f1bb0aea6",
+  "active": "a680348b956134f9",
   "lastOpenFiles": [
-    "Flink/SQL/Source Code Analyze/Join/Interval Join.md",
-    "README.md.md",
-    "Flink/DataStream/Source Code Analyze/Timer.md",
-    "Flink/SQL/Source Code Analyze/Join/Join Outline.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心逻辑&注意事项.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心基础类.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Inner Join.md",
-    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Interval Join Example.md",
+    "Picture/Flink SQL/Join/Event Time Temporal Join图解.png",
     "Flink/SQL/Source Code Analyze/Join/Temporal Join.md",
-    "Flink/SQL/Source Code Analyze/Change Log 原理与实现.md",
-    "Flink/Use Case/SQL/Join Use Case.md",
+    "Flink/SQL/Source Code Analyze/Join/Interval Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Inner Join.md",
+    "Flink/DataStream/Source Code Analyze/Timer.md",
     "Flink/SQL/Source Code Analyze/UT & IT/UT & IT Outline.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Semi Join.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Table Sink IT Case.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Temporal Join Example.md",
     "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Regular Join Example.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Interval Join Example.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Window Example - Regular.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心逻辑&注意事项.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Window Example - Special.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Stream SQL Example - Regular.md",
     "Flink/SQL/Source Code Analyze/Join/Regular Join/Anti Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心基础类.md",
+    "Flink/SQL/Source Code Analyze/Join/Window Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Join Outline.md",
     "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Aggregate/Group Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Full Join.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Left & Right Join.md",
-    "Flink/SQL/Source Code Analyze/Join/Lookup Join.md",
-    "Flink/Flink Overview.md",
-    "Flink/Use Case/Use Case Outline.md",
-    "Flink/Use Case/DataStream/Data Stream Use Case Outline.md",
-    "Flink/Use Case/SQL/SQL Use Case Outline.md",
-    "Flink/Use Case/Data Stream Use Case.md",
-    "Flink/Use Case/SQL/Aggregate Use Case.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Slicing Window Processor.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Window Strategy.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Records Combiner.md",
+    "Flink/SQL/Source Code Analyze/Window/Window Outline.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Records Window Buffer.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Slicing Window Operator.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TVF Aggregate.md",
     "Flink/Use Case/SQL/Aggregate",
     "Flink/Use Case/DataStream",
     "Flink/Use Case/SQL",
@@ -239,7 +219,6 @@
     "Picture/Flink SQL/Window/Slice Assigners.png",
     "Picture/Flink SQL/Window/Records Window Buffer.png",
     "Picture/Flink SQL/Window/Records Combiner.png",
-    "Picture/Flink SQL/Window/Keyed Slice Assigners.png",
     "Flink/Flink SQL/未命名.canvas",
     "未命名.canvas",
     "Language/未命名.canvas"

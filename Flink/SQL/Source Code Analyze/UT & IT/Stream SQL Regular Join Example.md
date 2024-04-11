@@ -1,3 +1,35 @@
+## SQL DDL
+```SQL
+-- left table ddl
+CREATE TABLE left_source_table  
+    order_id STRING  
+    user_id STRING, 
+	price BIGINT, 
+    proctime AS PROCTIME()  
+) WITH ( 
+    'connector' = 'datagen',  
+    'rows-per-second' = '10',
+    'fields.order_id.length' = '1',
+    'fields.user_id.length' = '10',
+    'fields.price.min' = '1',
+    'fields.price.max' = '1000000'
+);
+
+-- right table ddl
+CREATE TABLE right_source_table  
+    order_id STRING  
+    user_id STRING, 
+	price BIGINT, 
+    proctime AS PROCTIME()  
+) WITH ( 
+    'connector' = 'datagen',  
+    'rows-per-second' = '10',
+    'fields.order_id.length' = '1',
+    'fields.user_id.length' = '10',
+    'fields.price.min' = '1',
+    'fields.price.max' = '1000000'
+);
+```
 ## Inner Join
 ### NoUniqueKey - 非笛卡尔积
 - code
