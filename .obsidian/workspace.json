@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch 核心概念以及基础类.md",
+                "file": "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Group Aggregate.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "8f3fb62e9fe040f5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch 核心概念以及基础类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch 核心概念以及基础类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch 核心概念以及基础类.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,54 +177,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a680348b956134f9",
+  "active": "8f3fb62e9fe040f5",
   "lastOpenFiles": [
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Group Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Local-Global/Local-Global Group Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Local-Global/Local-Global Outline.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Local-Global/Untitled.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Local-Global Group Aggregate Example.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Local-Global/Local-Global Window TVF Aggregate.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/UT & IT Outline.md",
+    "Flink/SQL/Source Code Analyze/UT & IT/Mini-Batch Group Aggregate Example.md",
     "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch Outline.md",
     "Flink/SQL/Source Code Analyze/Performance Tuning/Performance Tuning Outline.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch 核心概念以及基础类.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Deduplicate.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Group Aggregation.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Window TVF Aggregation.md",
-    "Flink/SQL/Source Code Analyze/Window/Window Outline.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TopN.md",
-    "Flink/SQL/Source Code Analyze/Deduplicate/Regular Deduplicate.md",
-    "Flink/SQL/Source Code Analyze/Deduplicate/Deduplicate Outline.md",
-    "Flink/SQL/Source Code Analyze/Aggregate/Aggregate Outline.md",
-    "Flink/SQL/Source Code Analyze/Aggregate/Group Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Aggregate/Over Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window Deduplicate.md",
-    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TVF Aggregate.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心基础类.md",
-    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心逻辑&注意事项.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch Aggregation.md",
-    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch",
-    "Flink/SQL/Source Code Analyze/源码编译.md",
-    "Flink/SQL/Flink SQL Outline.md",
-    "Flink/SQL/Source Code Analyze/Change Log 原理与实现.md",
-    "Flink/SQL/Source Code Analyze/Join/Temporal Join.md",
-    "README.md",
-    "Flink/SQL/Source Code Analyze/Window/Window - Will Deprecated/Operation/Window Group Aggregate.md",
-    "Picture/Flink SQL/Join/Event Time Temporal Join图解.png",
-    "Flink/SQL/Source Code Analyze/Join/Interval Join.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Use FILTER Modifier on Distinct Aggregates.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Local-Global Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Local-Global",
+    "Picture/Flink SQL/Local-Global",
+    "Picture/Flink SQL/Mini-Batch/MapBundleFunction Diagram.png",
+    "Picture/Flink SQL/Mini-Batch/AbstractMapBundleOperator Diagram.png",
     "Flink/SQL/Source Code Analyze/Join/Regular Join/Inner Join.md",
+    "Flink/Use Case/SQL/Join Use Case.md",
+    "Flink/SQL/Source Code Analyze/Window/Window TVF/Operation/Window TopN.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Mini-Batch 核心概念以及基础类.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Window TVF Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation/Mini-Batch Deduplicate.md",
+    "Picture/Flink SQL/Mini-Batch/Mini Batch - Buddle Trigger Diagram.png",
+    "Picture/Flink SQL/Mini-Batch",
+    "Flink/SQL/Source Code Analyze/Aggregate/Aggregate Outline.md",
+    "Flink/SQL/Source Code Analyze/Join/Temporal Join.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心逻辑&注意事项.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Regular Join核心基础类.md",
+    "Flink/SQL/Source Code Analyze/Join/Regular Join/Anti Join.md",
+    "Flink/SQL/Source Code Analyze/Aggregate/Group Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Split Distinct Aggregate.md",
+    "Flink/SQL/Source Code Analyze/Join/Lookup Join.md",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch/Operation",
+    "Flink/SQL/Source Code Analyze/Performance Tuning/Mini-Batch",
+    "Picture/Flink SQL/Join/Event Time Temporal Join图解.png",
     "Flink/Use Case/SQL/Aggregate",
     "Flink/Use Case/DataStream",
     "Flink/Use Case/SQL",
     "Flink/Use Case/SQL",
     "Flink/Use Case/DataStream",
-    "Flink/Use Case",
-    "Flink/Performance Tuning/SQL",
-    "Flink/Performance Tuning/DataStream",
     "Picture/Flink SQL/Window/Window Operator - Deprecated.png",
     "Picture/Flink DataStream/Watermark Propagation.png",
     "Picture/Flink SQL/Window/Window Strategy.png",
     "Picture/Flink SQL/Window/Trigger - Deprecated.png",
     "Picture/Flink SQL/Window/Slicing Window Operator.png",
     "Picture/Flink SQL/Window/Slice Processor.png",
-    "Picture/Flink SQL/Window/Slice Assigners.png",
-    "Picture/Flink SQL/Window/Records Window Buffer.png",
-    "Picture/Flink SQL/Window/Records Combiner.png",
     "Flink/Flink SQL/未命名.canvas",
     "未命名.canvas",
     "Language/未命名.canvas"

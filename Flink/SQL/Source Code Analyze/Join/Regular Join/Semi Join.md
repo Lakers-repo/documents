@@ -1,4 +1,4 @@
-### Logic & Physical Plan
+### Logic & Physical Plan & Execution
 
 - Physical Logical Optimized
 ```mermaid
